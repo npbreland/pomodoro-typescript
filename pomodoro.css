@@ -1,0 +1,32 @@
+button {
+    cursor: pointer;
+}
+
+.buttons-row-2 > button {
+    width: 100px;
+    margin: 0 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+#time-left {
+    font-size: 4em;
+}
+
+.play-pause-toggle {
+    width: 320px;
+    margin: 10px auto 5px auto;
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
